@@ -9,7 +9,7 @@ public class FunnyController {
 
     @GetMapping("/")
     public String funny(Model model) {
-        model.addAttribute("message", "Hello World");
+        model.addAttribute("message", "Hello World!!");
         return "funny";
     }
 }
